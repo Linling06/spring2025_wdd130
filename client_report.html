@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Client Report</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Quicksand&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+  <div id="wrapper">
+    <div id="header"></div>
+
+    <main>
+      <section>
+        <h2>Client Report</h2>
+        <p>
+          I decided what content and images to use for my site plan based on my interests and personal style. I wanted something creative, peaceful, and a little playful, so I chose nature and space elements with a custom cat logo. I used soft colors and fun fonts to match that vibe.
+        </p>
+        <p>
+          I communicated with my developer through in-class discussions and emails. There were no major communication issues.
+        </p>
+        <p>
+          My developer did meet my expectations. The layout, colors, and style turned out well and fit the plan.
+        </p>
+        <p>
+          Next time, I will try to give feedback earlier and communicate more clearly about small visual details.
+        </p>
+        <p>
+          <strong>Site Link:</strong> <a href="https://edwardskyler4.github.io/wdd130-xie/">Beginner's Universe</a>
+        </p>
+      </section>
+
+      <section>
+        <h2>Lead Developer Report</h2>
+        <p>
+          I managed my development team by assigning one junior developer to work on the "Data Center" page and the other on the "Contact" page. We communicated mainly through in-class discussions and email to make sure everyone understood their tasks and stayed on the same page.
+        </p>
+        <p>
+          I communicated with the client through emails and in-class discussions. There were no major communication issues. I communicated with the client to confirm colors, layout, and design style. Everything went smoothly and on schedule.
+        </p>
+        <p>
+          I published the site using GitHub Pages and shared the link with the client for feedback and approval.
+        </p>
+        <p>
+          At first, I wasn't very familiar with using GitHub, so I had some trouble understanding how to push changes and manage the repository. But after some practice and help from my classmates, I learned how to use it properly. By the end of the project, I felt more confident using GitHub for version control and collaboration. GitHub was helpful for version control and collaboration. I committed regularly and solved small issues during the process.
+        </p>
+        <p>
+          <strong>Site Link:</strong> <a href="https://linling06.github.io/wdd130-maldonado/">NoLytics</a>
+        </p>
+      </section>
+
+      <section>
+        <h2>Junior Developer Report - Site: Massey</h2>
+        <p>
+          I communicated with my lead developer, Esmeralda E Sanchez, through emails and in-class discussions. She gave clear instructions, and I followed them.
+        </p>
+        <p>
+          Yes, I knew my responsibilities. I worked on child page 2(Book free cruise) and followed the site plan.
+        </p>
+        <p>
+          I was able to contribute successfully. My lead developer supported me and the work was divided fairly.
+        </p>
+        <p>
+          I had some GitHub errors when pushing changes, but I got help and learned to fix them.
+        </p>
+        <p>
+          <strong>Site Link:</strong> <a href="https://esmes31.github.io/wdd130-massey/">Scamliner</a>
+        </p>
+      </section>
+
+      <section>
+        <h2>Junior Developer Report - Site: Legaspi</h2>
+        <p>
+          My lead developer for this site, Kelson Layton, did not contact me. I tried to reach out, but didn’t get a response.
+        </p>
+        <p>
+          Because of that, I didn’t know what page to work on. I told Brother Alvey in class, and he said I didn’t need to work on that page anymore.
+        </p>
+        <p>
+          I did not contribute to that site, but I was ready to if I had heard from the team.
+        </p>
+        <p>
+          <strong>Site Link:</strong> Not available (I was not assigned due to team issue).
+        </p>
+      </section>
+
+      <section>
+        <h2>General Experience and Reflections</h2>
+        <p>
+          The most challenging part was fixing some GitHub errors. It was frustrating at first, but with help I figured it out and now feel more confident.
+        </p>
+        <p>
+          I enjoyed designing the layout and seeing everything come together. It felt great to make a real site.
+        </p>
+        <p>
+          If I could do it again, I would ask more questions earlier and try to plan my tasks better.
+        </p>
+        <p>
+          Yes, I feel more confident working on real-world projects. I learned how to communicate in a team, organize tasks, and use tools like GitHub and CSS for professional sites.
+        </p>
+      </section>
+    </main>
+
+    <div id="footer"></div>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function(){
+      fetch('header.html')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById("header").innerHTML = data;
+        });
+
+      fetch('footer.html')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    });
+  </script>
+</body>
+</html>

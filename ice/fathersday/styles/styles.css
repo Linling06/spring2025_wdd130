@@ -1,0 +1,95 @@
+/* Add your CSS here to style your father's day page */
+body {
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  margin: 0;
+  background: linear-gradient(to bottom right, #E2EFDE, #AFD0BF);
+  color: #333;
+  line-height: 1.6;
+}
+
+#wrapper {
+  max-width: 1000px;
+  margin: 40px auto;
+  background-color: #ffffff;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+header {
+  background-color: #AFD0BF;
+  padding: 25px 0;
+  border-radius: 12px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+  padding: 10px 20px;
+  color: #ffffff;
+  background-color: #808F87;
+  font-weight: bold;
+  font-size: 1.1em;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.2s;
+  cursor: pointer;
+}
+
+nav ul li:hover {
+  background-color: #9B7E46;
+  transform: translateY(-2px) scale(1.05);
+}
+
+h1 {
+  text-align: center;
+  color: #9B7E46;
+  font-size: 3.2em;
+  margin-top: 10px;
+  text-shadow: 1px 1px 2px #ccc;
+}
+
+h2 {
+  color: #808F87;
+  border-left: 6px solid #9B7E46;
+  padding-left: 12px;
+  margin-top: 40px;
+  font-size: 1.6em;
+}
+
+img {
+  display: block;
+  max-width: 90%;
+  height: auto;
+  margin: 30px auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+}
+
+section {
+  background-color: #ffffff;
+  padding: 25px 30px;
+  margin-top: 25px;
+  border-left: 5px solid #AFD0BF;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+footer {
+  text-align: center;
+  margin-top: 60px;
+  padding-top: 25px;
+  font-size: 1em;
+  color: #666;
+  border-top: 1px solid #ccc;
+  opacity: 0.8;
+}

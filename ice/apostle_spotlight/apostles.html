@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apostles Spotlights</title>
+  <style>
+    body {
+      background-color: #E8ECED;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .container {
+      background-image: url('images/christus.webp');
+      background-size: cover;
+      background-position: center;
+      width: 800px;
+      padding: 20px;
+      border-radius: 20px;
+      border: 8px solid black;
+      text-align: center;
+    }
+
+    h1, h2 {
+      color: white;
+      margin-bottom: 20px;
+    }
+
+    .row {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+      align-items: flex-end;
+    }
+
+    .apostle {
+      width: 100px;
+      height: 100px;
+      border: 5px solid white;
+      border-radius: 50%;
+      overflow: hidden;
+      transition: border-color 0.3s;
+    }
+
+    .apostle:hover {
+      border-color: yellow; 
+    }
+
+    .apostle img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .big {
+      width: 130px;
+      height: 130px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>First Presidency</h1>
+    <div class="row">
+      <div class="apostle"><img src="images/oaks.webp" alt="First Presidency 1" /></div>
+      <div class="apostle big"><img src="images/nelson.webp" alt="First Presidency 2" /></div>
+      <div class="apostle"><img src="images/eyring.webp" alt="First Presidency 3" /></div>
+    </div>
+
+    <h2>Quorum of the Twelve Apostles</h2>
+    <div class="row">
+      <div class="apostle"><img src="images/holland.webp" alt="Apostle 1" /></div>
+      <div class="apostle"><img src="images/uchtdorf.webp" alt="Apostle 2" /></div>
+      <div class="apostle"><img src="images/bednar.webp" alt="Apostle 3" /></div>
+      <div class="apostle"><img src="images/cook.webp" alt="Apostle 4" /></div>
+    </div>
+    <div class="row">
+      <div class="apostle"><img src="images/christofferson.webp" alt="Apostle 5" /></div>
+      <div class="apostle"><img src="images/anderson.webp" alt="Apostle 6" /></div>
+      <div class="apostle"><img src="images/rasband.webp" alt="Apostle 7" /></div>
+      <div class="apostle"><img src="images/stevenson.webp" alt="Apostle 8" /></div>
+      
+    </div>
+    <div class="row">
+      <div class="apostle"><img src="images/renlund.webp" alt="Apostle 9" /></div>
+      <div class="apostle"><img src="images/gong.webp" alt="Apostle 10" /></div>
+      <div class="apostle"><img src="images/soares.webp" alt="Apostle 11" /></div>
+      <div class="apostle"><img src="images/kearon.webp" alt="Apostle 12" /></div>
+    </div>
+  </div>
+</body>
+</html>
